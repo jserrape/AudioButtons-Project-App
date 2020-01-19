@@ -7,7 +7,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="audiobuttons_project_app"
+        android:label="Gentecilla buttons"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
