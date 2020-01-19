@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audio_cache.dart';
@@ -15,8 +17,8 @@ class MyApp extends StatelessWidget {
 }
 
 class RandomWordsState extends State<RandomWords> {
-  final _biggerFont = const TextStyle(fontSize: 18.0);
 
+  List colors = [Colors.red, Colors.green, Colors.yellow, Colors.grey, Colors.pinkAccent, Colors.blue, Colors.orangeAccent, Colors.purple];
 
   // https://github.com/luanpotter/audioplayers/blob/master/doc/audio_cache.md
   static AudioPlayer advancedPlayer = new AudioPlayer();
@@ -145,8 +147,9 @@ class RandomWordsState extends State<RandomWords> {
   }
 
   Material _crearMaterialContainer(var i){
+    Random random = new Random();
     return Material(
-      color: Colors.blue,
+      color: colors[random.nextInt(colors.length)],
       child: InkWell(
         onTap: () => _reproducirSonido(i),
         child: Container(
@@ -157,15 +160,6 @@ class RandomWordsState extends State<RandomWords> {
     );
   }
 
-
-  Widget _buildRow(String pair) {
-    return ListTile(
-      title: Text(
-        pair,
-        style: _biggerFont,
-      ),
-    );
-  }
 
   @override
   Widget build(BuildContext context) {
