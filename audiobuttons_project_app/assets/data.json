@@ -1,0 +1,193 @@
+{
+	"title": "Audios de Gentecilla",
+	"sounds" : [
+		{ 
+			"text" : "Caillou" ,
+			"soundURL" : "caillou.mp3"
+		},
+		{ 
+			"text" : "Bolas en el culo" ,
+			"soundURL" : "bolas.mp3"
+		},
+		{ 
+			"text" : "Cállate" ,
+			"soundURL" : "callate.mp3"
+		},
+		{ 
+			"text" : "Hoy a estudiar" ,
+			"soundURL" : "estudiar.mp3"
+		},
+		{ 
+			"text" : "Follen" ,
+			"soundURL" : "follen.mp3"
+		},
+		{ 
+			"text" : "Golpe de estado" ,
+			"soundURL" : "golpeDeEstado.mp3"
+		},
+		{ 
+			"text" : "Hola" ,
+			"soundURL" : "hola.mp3"
+		},
+		{ 
+			"text" : "Maldito lisiado" ,
+			"soundURL" : "malditoLisiado.mp3"
+		},
+		{ 
+			"text" : "Me han follao" ,
+			"soundURL" : "meHanFollao.mp3"
+		},
+		{ 
+			"text" : "Pato alfa" ,
+			"soundURL" : "patoAlfa.mp3"
+		},
+		{ 
+			"text" : "La cosa no va así" ,
+			"soundURL" : "laCosaNoVaAsi.mp3"
+		},
+		{ 
+			"text" : "Piratas" ,
+			"soundURL" : "piratas.mp3"
+		},
+		{ 
+			"text" : "Pota 0" ,
+			"soundURL" : "pota0.mp3"
+		},
+		{ 
+			"text" : "Pota 1" ,
+			"soundURL" : "pota1.mp3"
+		},
+		{ 
+			"text" : "Pota 2" ,
+			"soundURL" : "pota2.mp3"
+		},
+		{ 
+			"text" : "Pota 3" ,
+			"soundURL" : "pota3.mp3"
+		},
+		{ 
+			"text" : "Roberto racista" ,
+			"soundURL" : "robertoRacista.mp3"
+		},
+		{ 
+			"text" : "Roberto se disculpa" ,
+			"soundURL" : "robertoSeDisculpa.mp3"
+		},
+		{ 
+			"text" : "Teléfono del maltrato" ,
+			"soundURL" : "telefonoMaltrato.mp3"
+		},
+		{ 
+			"text" : "Titular" ,
+			"soundURL" : "titular.mp3"
+		},
+		{ 
+			"text" : "Dejadme tranquilo" ,
+			"soundURL" : "DejadmeTranquilo.mp3"
+		},
+		{ 
+			"text" : "Siento que sea gorda" ,
+			"soundURL" : "gorda.mp3"
+		},
+		{ 
+			"text" : "Mama la cena" ,
+			"soundURL" : "laCenaMama.mp3"
+		},
+		{ 
+			"text" : "Chino por favor" ,
+			"soundURL" : "esperar.mp3"
+		},
+		{ 
+			"text" : "Te reviento gilipollas" ,
+			"soundURL" : "gilipollasTeReviento.mp3"
+		},
+		{ 
+			"text" : "Aquavit" ,
+			"soundURL" : "Aquavit.mp3"
+		},
+		{ 
+			"text" : "Más Aquavit" ,
+			"soundURL" : "MasAquavit.mp3"
+		},
+		{ 
+			"text" : "Manueeeee" ,
+			"soundURL" : "Manueeeee.mp3"
+		},
+		{ 
+			"text" : "El bebercio" ,
+			"soundURL" : "ElBebercio.mp3"
+		},
+		{ 
+			"text" : "Os quiero" ,
+			"soundURL" : "OsQuiero.mp3"
+		},
+		{ 
+			"text" : "Dentro del pecho" ,
+			"soundURL" : "DentroDelPecho.mp3"
+		},
+		{ 
+			"text" : "El recuento" ,
+			"soundURL" : "elRecuento.mp3"
+		},
+		{ 
+			"text" : "No puedo beber más" ,
+			"soundURL" : "noPuedoBeberMas.mp3"
+		},
+		{ 
+			"text" : "Muchas gracias" ,
+			"soundURL" : "MuchasGracias.mp3"
+		},
+		{ 
+			"text" : "Elvis borracho" ,
+			"soundURL" : "ElvisBorracho.mp3"
+		},
+		{ 
+			"text" : "Es la pollisima" ,
+			"soundURL" : "esLaPollisima.mp3"
+		},
+		{ 
+			"text" : "A tope" ,
+			"soundURL" : "aTope.mp3"
+		},
+		{ 
+			"text" : "Burgues Tomás" ,
+			"soundURL" : "BurguesTomas.mp3"
+		},
+		{ 
+			"text" : "Diario de Bitácora" ,
+			"soundURL" : "DiariodeBitácora.mp3"
+		},
+		{ 
+			"text" : "Mayday" ,
+			"soundURL" : "Mayday.mp3"
+		},
+		{ 
+			"text" : "Os quiero mucho" ,
+			"soundURL" : "OsQuieroMucho.mp3"
+		},
+		{ 
+			"text" : "Quién vive" ,
+			"soundURL" : "QuiénVive.mp3"
+		},
+		{ 
+			"text" : "Seguiremos informando" ,
+			"soundURL" : "SeguiremosInformando.mp3"
+		},
+		{ 
+			"text" : "Se ha rascado" ,
+			"soundURL" : "SeHaRascado.mp3"
+		},
+		{ 
+			"text" : "Victoria" ,
+			"soundURL" : "Victoria.mp3"
+		},
+		{ 
+			"text" : "Ya tu sabes" ,
+			"soundURL" : "YaTuSabes.mp3"
+		},
+		{ 
+			"text" : "No voy borracho" ,
+			"soundURL" : "YoNoVoyBorracho.mp3"
+		}
+	]
+}
