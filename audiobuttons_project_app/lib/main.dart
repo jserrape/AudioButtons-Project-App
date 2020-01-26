@@ -32,8 +32,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Gentecilla buttons',
       home: RandomWords(),
+      debugShowCheckedModeBanner: false,
     );
   }
+}
+
+class RandomWords extends StatefulWidget {
+  @override
+  RandomWordsState createState() => new RandomWordsState();
 }
 
 class RandomWordsState extends State<RandomWords> {
@@ -52,18 +58,25 @@ class RandomWordsState extends State<RandomWords> {
   static AudioPlayer advancedPlayer = new AudioPlayer();
   static AudioCache player = AudioCache(fixedPlayer: advancedPlayer);
 
-  Widget _buildSuggestions() {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      //backgroundColor: Color(0xFFEFEFEF),
+      appBar: AppBar(
+        title: Text('Gentecilla button'),
+      ),
+      body: _buildGridView(),
+    );
+  }
+
+  Widget _buildGridView() {
     return GridView.count(
         primary: false,
         padding: const EdgeInsets.all(20),
-        crossAxisSpacing: 10,
-        mainAxisSpacing: 10,
+        crossAxisSpacing: 20,
+        mainAxisSpacing: 20,
         crossAxisCount: 2,
         children: _generarArrayMaterial());
-  }
-
-  void _reproducirSonido(var n) {
-    player.play(arrFile[n]);
   }
 
   List<Widget> _generarArrayMaterial() {
@@ -77,29 +90,16 @@ class RandomWordsState extends State<RandomWords> {
   Material _crearMaterialContainer(var i) {
     Random random = new Random();
     return Material(
-      color: colors[random.nextInt(colors.length)],
-      child: InkWell(
-        onTap: () => _reproducirSonido(i),
-        child: Container(
-          padding: const EdgeInsets.all(8),
-          child: Text(arrTexto[i]),
-        ),
+      child: FloatingActionButton(
+        backgroundColor: colors[random.nextInt(colors.length)],
+        elevation: 5,
+        onPressed: () => player.play(arrFile[i]),
+        child: new Text(arrTexto[i],
+                        textAlign: TextAlign.center,
+                        style: new TextStyle( color: Colors.black,
+                                              fontSize: 20.0)),
       ),
     );
   }
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Gentecilla button'),
-      ),
-      body: _buildSuggestions(),
-    );
-  }
-}
-
-class RandomWords extends StatefulWidget {
-  @override
-  RandomWordsState createState() => new RandomWordsState();
 }
