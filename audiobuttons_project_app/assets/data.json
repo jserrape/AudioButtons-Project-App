@@ -188,6 +188,34 @@
 		{ 
 			"text" : "No voy borracho" ,
 			"soundURL" : "YoNoVoyBorracho.mp3"
+		},
+		{ 
+			"text" : "Ale papito" ,
+			"soundURL" : "AlePapito.mp3"
+		},
+		{ 
+			"text" : "Busca el cuartelillo" ,
+			"soundURL" : "BuscaCuartelillo.mp3"
+		},
+		{ 
+			"text" : "Esa coca no es mia" ,
+			"soundURL" : "EsaCocaNoEsMia.mp3"
+		},
+		{ 
+			"text" : "Eso no vale na" ,
+			"soundURL" : "EsoNoValeNa.mp3"
+		},
+		{ 
+			"text" : "Pero hombre" ,
+			"soundURL" : "PeroHombreDesgraciao.mp3"
+		},
+		{ 
+			"text" : "Señoooora" ,
+			"soundURL" : "Señooora.mp3"
+		},
+		{ 
+			"text" : "Una gran noche" ,
+			"soundURL" : "UnaGranNoche.mp3"
 		}
 	]
 }

@@ -62,9 +62,9 @@ class RandomWordsState extends State<RandomWords> {
   Widget build(BuildContext context) {
     return Scaffold(
       //backgroundColor: Color(0xFFEFEFEF),
-      appBar: AppBar(
+      /*appBar: AppBar(
         title: Text('Gentecilla button'),
-      ),
+      ),*/
       body: _buildGridView(),
     );
   }
@@ -72,9 +72,9 @@ class RandomWordsState extends State<RandomWords> {
   Widget _buildGridView() {
     return GridView.count(
         primary: false,
-        padding: const EdgeInsets.all(20),
-        crossAxisSpacing: 20,
-        mainAxisSpacing: 20,
+        padding: const EdgeInsets.all(30),
+        crossAxisSpacing: 30,
+        mainAxisSpacing: 30,
         crossAxisCount: 2,
         children: _generarArrayMaterial());
   }
